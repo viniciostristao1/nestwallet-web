@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    Se servir o app num caminho diferente da raiz, o `--base-href` do
+    `flutter build web` ajusta o valor abaixo automaticamente.
+  -->
+  <base href="/nestwallet-web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <!-- viewport: evita o zoom automático do Safari ao focar campos (maximum-scale=1)
+       e respeita o notch do iPhone (viewport-fit=cover). -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="Nestwallet — controle de gastos e receitas da casa, 100% offline.">
+
+  <!-- iOS: app em tela cheia ao adicionar à Tela de Início + barra de status preta -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Nestwallet">
+  <meta name="theme-color" content="#0B0B0B">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Nestwallet</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
